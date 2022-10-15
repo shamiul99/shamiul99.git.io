@@ -1,0 +1,110 @@
+@media only screen and (max-width: 982px) {
+  .container{
+      width:800px;
+  }
+  .maps iframe{
+      width:300px;
+      height:250px;
+  }
+}
+@media only screen and (max-width:820px){
+    .container {
+      width: 100%;
+      padding: 0px 9px;
+    }
+}
+@media only screen and (max-width:766px){
+    body{
+        position: relative;
+    }
+    .make-padding {
+      padding: 20px 0px;
+    }
+    .toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 18px;
+      z-index: 111111;
+    }
+    .toggle-container{
+        position: relative;
+    }
+    .toggle span{
+        height:20px;
+        width:auto;
+        color:#fff;
+        font-weight: bold;
+        border:1px solid #fff;
+        border-radius:5px;
+        padding:7px;
+        cursor: pointer;
+    }
+    .main-nav {
+      position: absolute;
+      background: black;
+      top: -15%;
+      left: 0%;
+      display: block;
+      width: 100%;
+      text-align: left;
+      height: 100vh;
+      padding:20px 40px;
+      display:none;
+    }
+    .main-nav ul{
+    }
+    .main-nav ul li{
+        display: block;
+        width:100%;
+    }
+    .main-nav ul li ul{
+        position: absolute;
+        top:0% !important;
+        left:-109% !important;
+        display:block;
+    }
+    .main-nav ul li:hover ul{
+        left:28% !important;
+        z-index: 11111111111111111111;
+    }
+}
+@media only screen and (max-width:590px){
+    .float-left{
+        float:none;
+        width:100%;
+    }
+    .float-right{
+        float:none;
+        width:100%
+    }
+    .always-float-left{
+        float:left;
+        width:auto;
+        display: block;
+    }
+    .always-float-right{
+        float:right;
+        width:auto;
+        display: block;
+    }
+    .header-background{
+        text-align: center;
+    }
+    .footer-top-bg{
+        text-align: center;
+    }
+    .float-right ul li{
+        float:none;
+        display: inline;
+    }
+    .maps, .contact-info {
+      padding: 0px;
+    }
+    .maps iframe {
+      width: 100%;
+    }
+    .contact-info{
+        text-align: center;
+    }
+}

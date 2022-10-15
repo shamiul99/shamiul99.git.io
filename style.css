@@ -1,0 +1,218 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300&family=Tiro+Bangla&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Anek Bangla', sans-serif;
+}
+img{
+    width:100%;
+    vertical-align: middle;
+}
+.main-nav-bg{
+    overflow:inherit !important;
+    height:40px;
+}
+.full-width{
+    width:100%;
+    display: block;
+    overflow:hidden;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+.make-padding{
+    padding:40px 0px;
+    overflow: hidden;
+}
+.float-left{
+    float:left;
+    display: block;
+}
+.float-right{
+    float:right;
+    display: block;
+}
+.float-right:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+/* typhorgaphy*/
+.float-left p, .float-right ul{
+    padding:10px 0px;
+    color:#fff;
+}
+.float-right ul{
+    list-style-type: none;
+}
+.float-right ul li{
+    float:left;
+    padding:0px 10px 0px 0px;
+}
+.float-right ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+.float-right ul li:last-child{
+    padding-right:0px;
+}
+.top-background{
+    background:linear-gradient( to right, #4E7F8D, #31003A);
+}
+/*main header section is here*/
+.heading>a{
+    font-size:30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.header-background{
+    background:linear-gradient(to right, #6597D1, #3C4754);
+}
+.search-form input{
+    padding:10px;
+    border:1px solid gray;
+}
+.search-form input[type=submit]{
+    border:none;
+    margin-left:-5px;
+    background: #6595D8;
+    cursor:pointer;
+    color: #fff;
+    font-size:14.6px;
+    letter-spacing:2px;
+}
+.search-form input[type=search]:focus{
+    outline:none;
+}
+.main-nav-bg{
+    background:#383A42;
+}
+.main-nav ul li{
+    float:left;
+    list-style-type: none;
+    position:relative;
+}
+.main-nav ul li a{
+    padding:10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #9EA7AC;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.main-nav ul li a:first-child{
+    padding-left:0px;
+}
+.main-nav ul li a:hover{
+    color:#fff;
+}
+.main-nav ul li ul {
+    text-align: left;
+    width: 200px;
+    top: 19px;
+    left: 10000px;
+    position: absolute;
+    display:none;
+}
+.main-nav ul li:hover ul{
+    left:0;
+    display:block
+}
+.main-nav ul li ul li{
+    display: block;
+    float:none;
+    width:100%;
+    background:#383A42;
+}
+.main-nav ul li ul li:before{
+    content:'';
+    height:1px;
+    width:100%;
+    background:black;
+    display: block;
+}
+.main-nav ul li ul li a{
+    color:#9EA7AC;
+    padding:10px 2px;
+    margin-left:10px;
+}
+.left-area{
+    width:65%;
+}
+.right-area{
+    width:35%;
+}
+.contents, .box{
+    margin:30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contents , .article{
+    padding:10px;
+}
+.box h2{
+    text-align: center;
+    padding:10px 0;
+    background:linear-gradient(to right, #6597D1, #3C4754);
+    color: #fff;
+}
+.article span{
+    letter-spacing:2px;
+}
+.article span:after{
+    content:'';
+    height:1px;
+    width:100%;
+    display: block;
+    background:#4A6986;
+    margin-top: 10px;
+}
+.article span i{
+    margin-top:10px;
+    font-size: 11px;
+}
+.article{
+    margin-bottom:10px;
+}
+.article p{
+    color:gray;
+}
+.footer-top-bg{
+    background:#6443C8;
+}
+.maps, .contact-info{
+    margin:30px 0px;
+    padding:10px;
+}
+.footer-bg{
+    background:#262626;
+}
+.contact-info .main-text h2{
+    padding:20px 0px;
+    color: #fff;
+    font-weight: normal;
+}
+.contact{
+    color:#fff;
+}
+.location, .address, .mobile{
+    padding:10px 0px;
+    font-weight: normal;
+    letter-spacing:2px;
+}
+.location span, .address span, .mobile span{
+    margin-right:8px;
+}
+.copyright{
+    text-align: center;
+    color: #fff;
+    margin:30px;
+}
+.toggle{
+    display:none;
+}
+
+/*good night*/
